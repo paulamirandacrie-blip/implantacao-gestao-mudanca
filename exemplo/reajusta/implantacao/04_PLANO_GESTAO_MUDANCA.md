@@ -34,7 +34,19 @@ Consciência para quem tem poder alto, Desejo para quem perde domínio, e só de
 | AC-08 | Conselho passa a pautar o acompanhamento do processo pelo painel de indicadores, todo mês | PI-DIR | Reforço | ADKAR PI-DIR, IMP-09 | S+2 | Presidência do Conselho-Diretor |
 | AC-09 | Divulgar o resultado do piloto (antes e depois) e reconhecer as unidades | PI-DIR, PI-ANA, PI-REL | Reforço | IMP-09 | S+6 | Presidência do Conselho-Diretor |
 
-## 4. Linha do tempo
+## 4. Sustentação depois do projeto
+
+| Item | Resposta |
+|---|---|
+| Dono da solução | Chefia da CAPET, que responde pelo parecer técnico e pelos indicadores do processo |
+| Dúvidas e novos pedidos | Multiplicador da CAPET no dia a dia; pedidos de mudança à chefia da CAPET, priorizados com a TI |
+| Pessoa de reserva | Gestor do cadastro de contratos, que acompanha a operação assistida desde S0 |
+| Passagem crítica entre áreas | Saída da CAPET para a Procuradoria e para o gabinete: é onde o ciclo mais espera (IMP-04) |
+| Desligamento do método antigo | A planilha de cálculo deixa de ser aceita como memória do parecer em S+6, por decisão do Conselho-Diretor, se IND-AD-03 estiver em zero |
+| Memória das decisões | Registro de decisões do repositório do sistema e a trilha de auditoria do Reajusta |
+| Uso da IA depois do projeto | TI da agência, com a Procuradoria validando qualquer mudança nas minutas |
+
+## 5. Linha do tempo
 
 ```mermaid
 flowchart LR

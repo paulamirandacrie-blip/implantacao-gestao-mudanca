@@ -44,7 +44,14 @@ Cada peça começa pela tabela de cabeçalho do modelo, com `PC-`, a `CM-` que a
 
 ## 3. Peças a partir do próprio sistema
 
-A IA consegue gerar o material a partir do repositório e do sistema publicado:
+**Manual e vídeos: use o kit-manual-usuario da aula 7.** Se o projeto já tem o kit (roteiros YAML por tarefa, matriz
+perfil × tarefa, manual em PDF por perfil e vídeos narrados com legenda), as peças "manual" e "vídeo" do plano
+**apontam para as saídas do kit**, sem reescrever: o cabeçalho da peça cita o caminho do manual ou do roteiro, e a
+matriz do kit serve de base para a capacitação (`CAP-`). Este framework cuida do que o kit não faz: **por que** e
+**para quem** comunicar, em que ordem, e as peças fora do sistema (anúncio, apresentação para a diretoria, comunicado
+aos regulados, perguntas frequentes nascidas das resistências).
+
+Sem o kit, a IA consegue gerar o material a partir do repositório e do sistema publicado:
 
 - **Manual e guia:** ler `especificacao/11_TELAS.md` e os casos de uso; navegar no ambiente de validação; capturar as
   telas (com dados fictícios); escrever o passo a passo por tarefa.

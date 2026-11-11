@@ -27,6 +27,21 @@ Momento: S-n, S0 ou S+n. -->
 |---|---|---|---|---|---|---|
 | AC-01 | {{Verbo + o que será feito}} | {{PI-...}} | {{Elemento}} | {{ADKAR PI-... ou IMP-...}} | {{S-n}} | {{Função}} |
 
-## 4. Linha do tempo
+## 4. Sustentação depois do projeto
+
+<!-- Capítulo 04 §6. Função, nunca nome. O conferidor exige Dono da solução, Pessoa de reserva e Desligamento do
+método antigo preenchidos. -->
+
+| Item | Resposta |
+|---|---|
+| Dono da solução | {{Função que responde pelo benefício depois do projeto}} |
+| Dúvidas e novos pedidos | {{Quem responde e por qual canal}} |
+| Pessoa de reserva | {{Função que também domina a solução}} |
+| Passagem crítica entre áreas | {{Onde a solução pode se perder}} |
+| Desligamento do método antigo | {{O que é desligado, em que momento S+n, por decisão de quem}} |
+| Memória das decisões | {{Onde ficam razões, evidências, limites e versão vigente}} |
+| Uso da IA depois do projeto | {{Quem cuida de modelos, custo e regras}} |
+
+## 5. Linha do tempo
 
 <!-- Opcional: um diagrama mermaid (gantt ou flowchart) com as ações por semana, de S-4 a S+6. -->

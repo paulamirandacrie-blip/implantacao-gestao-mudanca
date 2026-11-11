@@ -47,6 +47,10 @@ Uma linha `PI-SIG` por **grupo**, nunca por pessoa. As fontes, nesta ordem:
 
 ## 3. Resistência não é defeito
 
+**Antes de chamar de resistência, verifique se a ferramenta perdeu benefício ou confiabilidade** (aula 7, Prof.
+Beraldi). Dado incompleto, tela que mudou sem aviso ou dúvida sem resposta fazem a pessoa voltar à planilha por bom
+motivo. Nesse caso a resposta é consertar a solução, não convencer a pessoa.
+
 Resistência é informação: diz o que a pessoa acha que vai perder. As perdas mais comuns em sistemas de fiscalização:
 
 - **Domínio:** "eu era quem sabia fazer a conta".

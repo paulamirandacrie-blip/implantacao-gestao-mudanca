@@ -78,6 +78,7 @@ python -m pytest tests
 - **Nenhum impacto sem origem.** Cada mudança aponta o módulo, o caso de uso, a tela ou a melhoria de onde veio.
 - **Nenhuma ação sem alvo.** Cada ação de mudança diz a quem se dirige e que elemento do ADKAR ela trata.
 - **Quem resiste é ouvido antes do anúncio geral.** O conferidor barra o plano que anuncia antes de escutar.
+- **Sustentação antes da entrada em uso.** Dono da solução, pessoa de reserva e data para desligar o método antigo.
 - **Toda peça tem dono no plano.** Cada peça de comunicação aponta a linha do plano de comunicação que a pede.
 - **Transparência sobre IA.** Voz, imagem ou avatar sintéticos levam aviso no início da peça.
 - **Acessível ou não está pronto.** Vídeo com legenda e transcrição; documentos com texto, não só imagem.

@@ -19,6 +19,7 @@ Códigos:
     G11 aviso  parte resistente sem perda percebida registrada
     G12 aviso  indicadores sem uso ou sem resultado; meta sem "(proposto)"
     G13 aviso  perfil que usa o sistema sem capacitação ou sem suporte
+    G14 erro   sustentação sem dono da solução, pessoa de reserva ou desligamento do método antigo
 """
 from __future__ import annotations
 
@@ -287,6 +288,13 @@ def conferir(projeto: Path) -> list[Achado]:
                 a("G13", "aviso", DOCS["cap"], f"{pi} usa o sistema e não tem capacitação")
             if not any(cobre(r.get("partes", ""), pi) for r in sups):
                 a("G13", "aviso", DOCS["cap"], f"{pi} usa o sistema e não tem suporte")
+
+    # G14 sustentação depois do projeto
+    if d["plano"] and not MARCADOR.search(d["plano"]):
+        sust = {sem_acento(r.get("item", "")): r.get("resposta", "").strip() for r in tabela_com(d["plano"], "Item", "Resposta")}
+        for item in ("Dono da solução", "Pessoa de reserva", "Desligamento do método antigo"):
+            if sust.get(sem_acento(item), "") in {"", "—", "-"}:
+                a("G14", "erro", DOCS["plano"], f"sustentação: \"{item}\" não preenchido")
 
     return achados
 

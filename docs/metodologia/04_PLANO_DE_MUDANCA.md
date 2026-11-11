@@ -56,10 +56,29 @@ Adoção é diferente de resultado. Meça os dois:
 Cada indicador tem linha de base (ou "sem linha de base"), meta "(proposto)", fonte do dado e momento de medição. Os
 critérios para seguir ou parar a operação em paralelo vêm daqui.
 
-## 6. Pronto quando
+## 6. Sustentação depois do projeto
+
+A mesma tecnologia se mantém onde o dado é usado e cobrado e é abandonada onde a equipe de implantação sai e ninguém
+assume (aula 7, Prof. Beraldi). O que se preserva é o **benefício**, não a ferramenta. O plano responde, antes de S0:
+
+| Pergunta | Por que importa |
+|---|---|
+| Quem é o dono da solução depois do projeto? | Alguém escolhido, com tempo, recurso e responsabilidade definidos |
+| Quem responde às dúvidas e aos novos pedidos? | O benefício inicial depende do apoio da equipe de implantação |
+| Quem é a pessoa de reserva? | Ninguém pode ser o único a conhecer a solução |
+| Em que passagem entre áreas a solução pode se perder? | É onde a continuidade costuma quebrar |
+| Quando e por decisão de quem o método antigo é desligado? | Sem desligamento formal, a planilha paralela fica |
+| Onde fica a memória das decisões? | Razões, evidências, limites e versão vigente, recuperáveis |
+| Quem cuida do uso da IA (modelos, custo, regras) depois do projeto? | A IA muda ao longo do tempo |
+
+Entrega, uso e benefício pedem evidências diferentes: o sistema publicado prova a entrega; os indicadores de uso
+provam a adoção; os de resultado provam o benefício (§5).
+
+## 7. Pronto quando
 
 - Patrocinador, coalizão e o que o patrocinador comunica pessoalmente estão escritos.
 - Toda resistência tem resposta.
 - Todo ponto de bloqueio tem ação no elemento certo (o conferidor verifica).
 - Capacitação e suporte cobrem todo perfil que usa o sistema.
 - Há ao menos um indicador de uso e um de resultado.
+- A sustentação tem dono, pessoa de reserva e data de desligamento do método antigo (o conferidor verifica).

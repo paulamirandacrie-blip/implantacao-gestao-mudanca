@@ -79,3 +79,11 @@ def test_cli_codigo_de_saida():
     r = subprocess.run([sys.executable, str(RAIZ / "scripts" / "conferir_implantacao.py"), "--projeto", str(RAIZ / "exemplo" / "reajusta")],
                        capture_output=True, text=True)
     assert r.returncode == 0, r.stdout
+
+
+def test_g14_sem_sustentacao(tmp_path):
+    impl = _copia_exemplo(tmp_path)
+    p = impl / "04_PLANO_GESTAO_MUDANCA.md"
+    texto = p.read_text(encoding="utf-8")
+    p.write_text("\n".join(l for l in texto.splitlines() if not l.startswith("| Pessoa de reserva")), encoding="utf-8")
+    assert "G14" in {a.codigo for a in erros(conf.conferir(impl))}

@@ -67,6 +67,9 @@ Em **modo aula**, não pergunte: tome a leitura mais razoável, registre-a no RE
 
 ## 4. Peças de comunicação
 
+0. **Manual e vídeos vêm do kit-manual-usuario (aula 7), se o projeto o tiver.** Nesse caso, não reescreva: a peça
+   aponta para o manual ou o roteiro do kit, e você produz só o que o kit não faz (anúncio, apresentação para a
+   diretoria, comunicado aos regulados, perguntas frequentes a partir das resistências, guia rápido).
 1. Cada peça em `implantacao/material/` começa pela tabela de cabeçalho do modelo: identificador `PC-nn`, linha do
    plano que a pede (`CM-nn`), público, versão.
 2. **Telas reais.** Manual, guia rápido e roteiro de vídeo usam as telas do sistema do aluno (`TL-`) e, se houver
