@@ -1,0 +1,17 @@
+{
+  "_leia": "Termos do caso resolvido (exemplo/reajusta). No plano do aluno, cada ocorrência é erro G03: sinal de que o conteúdo do exemplo vazou. Se o termo é legítimo no caso do aluno, ele o declara em termos_permitidos do implantacao/conferencia.json, com justificativa. Lido por scripts/conferir_implantacao.py.",
+  "termos": [
+    "AGENERSA",
+    "Reajusta",
+    "Paraty",
+    "Águas de Paraty",
+    "Águas da Imperatriz",
+    "CAPET",
+    "CEDAE",
+    "008/2014",
+    "reajuste tarifário",
+    "pleito de reajuste",
+    "remessa de faturamento",
+    "Câmara de Política Econômica e Tarifária"
+  ]
+}

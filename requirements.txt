@@ -1,0 +1,2 @@
+# Os scripts usam só a biblioteca padrão do Python (3.10 ou mais novo). Os testes usam pytest.
+pytest>=7.4
