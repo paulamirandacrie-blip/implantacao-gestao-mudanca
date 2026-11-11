@@ -299,13 +299,32 @@ def conferir(projeto: Path) -> list[Achado]:
     return achados
 
 
+ETAPA_POR_PREFIXO = {"01": 1, "02": 2, "03": 2, "04": 3, "05": 3, "06": 3, "07": 4}
+
+
+def etapa_do_achado(x: "Achado") -> int:
+    """Etapa do modo aula em que o achado passa a contar (ver docs/metodologia/MODO_AULA.md)."""
+    nome = x.arquivo.replace("\\", "/")
+    if nome.startswith("material/"):
+        return 5
+    if x.codigo == "G14":
+        return 4
+    if nome.startswith("README"):
+        return 4
+    return ETAPA_POR_PREFIXO.get(Path(nome).name[:2], 1)
+
+
 def main() -> None:
     sys.stdout.reconfigure(encoding="utf-8")
     ap = argparse.ArgumentParser(description=__doc__.split("\n")[0])
     ap.add_argument("--projeto", required=True, help="pasta do projeto ou a própria pasta implantacao/")
     ap.add_argument("--json", action="store_true", help="saída em JSON")
+    ap.add_argument("--etapa", type=int, choices=range(1, 6), metavar="N",
+                    help="modo aula em etapas (1 a 5): confere só os documentos já pedidos até a etapa N")
     args = ap.parse_args()
     achados = conferir(Path(args.projeto).resolve())
+    if args.etapa:
+        achados = [x for x in achados if etapa_do_achado(x) <= args.etapa]
     erros = [x for x in achados if x.nivel == "erro"]
     if args.json:
         print(json.dumps([x.__dict__ for x in achados], ensure_ascii=False, indent=2))
