@@ -40,11 +40,12 @@ conferir.
 ```
 Agora, com base no plano de comunicação em implantacao/05_PLANO_COMUNICACAO.md,
 produza as peças pedidas, seguindo os modelos de implantacao/material/:
-a apresentação de 5 slides para a diretoria (que o patrocinador usa no
-anúncio), as perguntas frequentes a partir das resistências do 04, o guia
-rápido e, se o plano pedir, o comunicado aos regulados.
-Manual e vídeos: se o projeto já tem o kit-manual-usuario da aula 7, não
-reescreva; faça a peça apontar para o manual e os roteiros do kit.
+guia rápido, manual com as telas, perguntas frequentes a partir das
+resistências do 04, apresentação de 5 slides para a diretoria, roteiro de
+vídeo de 2 minutos e, se o plano pedir, o comunicado aos regulados.
+Se o projeto já tem o kit-manual-usuario da aula 7, use os roteiros e o
+manual do kit para o manual e o vídeo. Se o sistema estiver publicado em
+<URL do sistema>, capture as telas com dados fictícios.
 Uma peça por subagente, em paralelo. Rode o conferidor no fim.
 Tempo: 40 minutos.
 ```
