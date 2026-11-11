@@ -21,6 +21,23 @@ primeiro rascunho completo e conferido, não a melhor versão possível. A vers�
    conferir.
 6. **Vídeo:** em aula, entregue o roteiro com as telas; gere o vídeo só se o tempo sobrar.
 
+## Modo aula em etapas (uma etapa por bloco da aula)
+
+Quando o aluno disser **"Etapa 1"**, **"Etapa 2"** etc., o plano é montado ao longo da aula, um bloco de cada vez,
+na mesma sessão. As regras do modo aula continuam valendo (não pergunte, registre `DEC`, confira a cada etapa).
+Faça **só o que a etapa pede**; não adiante documentos da etapa seguinte.
+
+| Etapa | Documentos | Depende de |
+|---|---|---|
+| 1 | Cria `implantacao/` a partir dos modelos e produz `01_IMPACTO_DA_MUDANCA.md` | mapeamento e especificação |
+| 2 | `02_PARTES_INTERESSADAS.md` e `03_DIAGNOSTICO_ADKAR.md` (um subagente para cada) | 01 |
+| 3 | `04_PLANO_GESTAO_MUDANCA.md`, `05_PLANO_COMUNICACAO.md` e `06_CAPACITACAO_E_SUPORTE.md` | 02 e 03 |
+| 4 | `07_INDICADORES_DE_ADOCAO.md` e a sustentação do 04 (dono, pessoa de reserva, desligamento do método antigo) | 04 |
+| 5 | As peças de `implantacao/material/`, uma por subagente | 05 |
+
+Ao fim de cada etapa: rode o conferidor, corrija os erros dos documentos da etapa e mostre ao aluno um resumo curto
+do que a etapa pediu. Avisos sobre documentos de etapas futuras (ainda vazios) são esperados: não os trate como erro.
+
 ## Comando de aula (para colar no agente)
 
 ```
